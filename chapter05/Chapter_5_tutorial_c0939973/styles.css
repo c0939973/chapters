@@ -1,0 +1,153 @@
+/*Default style sheet*/
+body, header, nav, main, footer, h1, div, img, ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+/*Default style sheet*/
+
+body {
+    background-color: #000;
+}
+
+header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #000;
+    height: 190px;
+}
+
+header img {
+    margin: 0 auto;
+}
+
+nav {
+    padding: 1%;
+    margin-bottom: 1%;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    font-size: 1.5em;
+    font-family: "Francois One", sans-serif;
+    border-top: 1px solid #ffffff;
+}
+
+nav li:first-child {
+    border-top: none;
+}
+
+nav li a {
+    display: block;
+    color: #fff;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+.mobile {
+    display: block;
+}
+
+.tablet-desktop {
+    display: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+main {
+    background-color: #ffffff;
+    padding: 2%;
+    font-size: 1.15em;
+    font-family: "Roboto Slab", serif;
+}
+
+.tel-link {
+    background-color: #404040;
+    padding: 2%;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.tel-link a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.5em;
+    display: block;
+}
+
+.hours {
+    margin-left: 10%;
+}
+
+.action {
+    font-size: 1.3em;
+    color: #666600;
+    font-weight: bold;
+}
+
+footer p {
+    font-size: 0.75em;
+    text-align: center;
+    color: #ffffff;
+    padding: 0 1em;
+}
+
+footer p a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#weights, #cardio, #training {
+    margin: 0 2%;
+}
+
+.round {
+    border-radius: 8px;
+}
+
+/* #exercises {
+    clear: left;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    background-color: #f2f2f2;
+    padding: 1% 2%;
+}
+
+#exercises dt {
+    font-weight: 700;
+}
+
+#exercises dd {
+    padding: 0.5% 1% 2% 0;
+} */
+
+#contact {
+    text-align: center;
+}
+
+#contact .contact-email-link {
+    color: #666600;
+    text-decoration: none;
+}
+
+#contact .map {
+    border: 2px solid #000 !important;
+    width: 95%;
+    height: 50%;
+}
+
+.external-link {
+    text-decoration: none;
+    color: #666600;
+    font-weight: bold;
+}
