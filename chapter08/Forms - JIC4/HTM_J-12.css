@@ -1,0 +1,72 @@
+/* 
+   Eating Well in Season style sheet 
+   Filename: styles.css
+    Author: Sushil Thanet   
+    Date: 15th Nov 2024    
+   HTML5 and CSS3 Illustrated Unit J, Independent Challenge 4
+ */
+
+/* reset styles */
+html {
+   font-size: 20px;
+}
+a, article, body, div, figcaption, figure, footer, header, h1, 
+h2, h3, img, li, nav, p, section, ul, fieldset, form, input, 
+label, legend, textarea, select, button {
+   border: 0;
+   padding: 0;
+   margin: 0;
+}
+img {
+   max-width: 100%;
+   height: auto;
+   width: auto;
+}
+ul {
+   list-style-type: none;
+}
+
+/* body and page container */
+body {
+   font-family: "Alegreya Sans", Arial, Helvetica, sans-serif;
+}
+.header-nav-container {
+   background-color: #a17f43;
+   position: relative;
+}
+
+/* Form Styling */
+form input, form textarea, form select, form button {
+   display: block;
+   font-size: 1em;
+   margin-bottom: 1em;
+   width: 100%;
+   padding: 0.5em;
+   border: 2px solid #a17f43;
+   border-radius: 5px;
+   box-sizing: border-box;
+}
+form button {
+   background-color: #a17f43;
+   color: rgb(246, 224, 65);
+   border: none;
+   cursor: pointer;
+}
+form button:hover {
+   background-color: rgb(246, 224, 65);
+   color: black;
+}
+fieldset {
+   margin-bottom: 1.5em;
+}
+legend {
+   font-weight: bold;
+}
+label {
+   display: block;
+   margin-bottom: 0.5em;
+   font-size: 0.9em;
+}
+label span {
+   color: red;
+}

@@ -1,0 +1,69 @@
+/*
+Author: Sushil Thanet
+Date: 15 Nov 2024
+File Name: apply08.css
+*/
+
+/* CSS Reset */
+body, main, footer, table {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rule for body */
+body {
+	background-color: #f4f9e1;
+}
+
+/* Style rule for the container */
+#container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+/* Style for the footer element */
+footer {
+	font-size: .70em;
+	text-align: center;
+}
+
+/* Style rule for the table element to set width and margins */
+table {
+    width: 80%;
+    margin: 0 auto;
+    border: 3px solid #71881b;
+}
+
+/* Style rule to collapse borders and set padding for table, tr, th, and td */
+table, tr, th, td {
+    border-collapse: collapse;
+    padding: 2%;
+}
+
+/* Style rule for the caption element to set font size, padding, and top margin */
+caption {
+    font-size: 2em;
+    padding: 2%;
+    margin-top: 2%;
+}
+
+/* Style rule for th and td elements to set border */
+th, td {
+    border: 1px solid #7188bb;
+}
+
+/* Style rule for td to center-align text */
+td {
+    text-align: center;
+}
+
+/* Style rule for tr to set background color for odd rows */
+tr:nth-child(odd) {
+    background-color: #d3e788;
+}
+
+/* Style rule to left-align text in th elements within rows 2-5 */
+th {
+    text-align: center;
+}

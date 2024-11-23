@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--
+   Student Name: Sushil Thanet
+   File Name: contact.html
+   Date: NOV 22, 2024
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Strike a Chord: Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>&#9836; Strike a Chord &#9836;</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="lessons.html">Lessons</a></li>
+            <li><a href="instructors.html">Instructors</a></li>
+            <li><a href="rentals.html">Rentals</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div id="contact">
+            <h2>Contact us today to schedule your first lesson.</h2>
+            <p><a href="tel:8145559228" class="tel-link">(814) 555-9228</a></p>
+            <p>Email: <a href="mailto:lessons@strikeachord.net" class="email-link">lessons@strikeachord.net</a></p>
+            <p>We are located at: 1122 Music Lane, Chicago, IL 60007</p>
+        </div>
+
+        <div id="form">
+            <h2>Complete the form below and one of our staff members will contact you.</h2>
+            <form class="form-grid"><!-- Start Form -->
+                <fieldset>
+                    <legend>Customer Information</legend>
+                    <label for="fName">First Name:</label>
+                    <input type="text" name="fName" id="fName">
+                    <label for="lName">Last Name:</label>
+                    <input type="text" name="lName" id="lName">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email">
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone">
+                </fieldset>
+                <fieldset>
+                    <legend>Musical Interest</legend>
+                    <p>I am interested in:</p>
+                    <label for="guitarles"><input type="checkbox" name="interest" id="guitarles" value="Guitar Lessons">Guitar Lessons</label>
+                    <label for="piano"><input type="checkbox" name="interest" id="pianoles" value="Piano Lessons">Piano Lessons</label>
+                    <label for="violin"><input type="checkbox" name="interest" id="violinles" value="Violin Lessons">Violin Lessons</label>
+                    <label for="rent"><input type="checkbox" name="interest" id="rent" value="Rental Equipment">Rental Equipment</label>
+                </fieldset>
+                <input type="submit" id="submit" value="Submit" class="btn">
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; Copyright 2021. All Rights Reserved.</p>
+        <p><a href="mailto:lessons@strikeachord.net">lessons@strikeachord.net</a></p>
+    </footer>
+</body>
+</html>

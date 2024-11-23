@@ -1,0 +1,137 @@
+<!-- 
+   Eating Well in Season Signup page
+   Filename: signup.html
+   Author: Sushil Thanet   
+   Date: 14th Nov 2024       
+   HTML5 and CSS3 Illustrated Unit J, Independent Challenge 4
+-->
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Eating Well in Season - Signup</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <script src="modernizr.custom.40753.js"></script>
+      <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" href="styles.css">
+      <link rel="shortcut icon" href="images/favicon.ico">
+      <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+      <link rel="icon" sizes="192x192" href="images/android.png">
+   </head>
+   <body>
+      <div class="header-nav-container">
+         <p class="skipnavigation"><a href="contentstart">Skip navigation</a></p>
+         <header>
+            <h1>Eating Well in Season</h1>
+            <div>
+               <img src="images/logo.png" width="216" height="146" alt="">               
+            </div>
+         </header>
+         <nav class="sitenavigation">
+            <ul>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="sources.html">Sources</a></li>
+               <li><a href="menus.html">Sample Menus</a></li>
+               <li><a href="pricing.html">Pricing</a></li>
+               <li><a href="signup.html">Sign Up</a></li>
+            </ul>
+         </nav>
+      </div>
+      <div class="article-aside-outer-container">
+         <div class="article-aside-inner-container">
+            <article id="contentstart">
+               <h2>Sign Up</h2>
+               <form action="results.html" method="post">
+                  <!-- Fieldset 1: Contact Information -->
+                  <fieldset>
+                     <legend>Contact Information <span>*</span></legend>
+                     <label for="name">Name:</label>
+                     <input type="text" id="name" name="name" required placeholder="Enter your name">
+                     <label for="email">Email:</label>
+                     <input type="email" id="email" name="email" required placeholder="example@example.com">
+                     <label for="phone">Phone:</label>
+                     <input type="tel" id="phone" name="phone" required placeholder="(123) 456-7890">
+                     <label for="address">Address:</label>
+                     <input type="text" id="address" name="address" required>
+                     <label for="city">City:</label>
+                     <input type="text" id="city" name="city" required>
+                     <label for="state">State:</label>
+                     <input type="text" id="state" name="state" required>
+                     <label for="zip">Zip:</label>
+                     <input type="text" id="zip" name="zip" required>
+                  </fieldset>
+
+                  <!-- Fieldset 2: Meal(s) -->
+                  <fieldset>
+                     <legend>Meal(s) <span>*</span></legend>
+                     <label for="lunch">
+                        <input type="checkbox" id="lunch" name="meal" value="lunch"> Lunch
+                     </label>
+                     <label for="dinner">
+                        <input type="checkbox" id="dinner" name="meal" value="dinner"> Dinner
+                     </label>
+                  </fieldset>
+
+                  <!-- Fieldset 3: Delivery Frequency -->
+                  <fieldset>
+                     <legend>Delivery Frequency <span>*</span></legend>
+                     <label for="daily">
+                        <input type="radio" id="daily" name="frequency" value="daily"> Daily
+                     </label>
+                     <label for="weekly">
+                        <input type="radio" id="weekly" name="frequency" value="weekly" checked> Weekly
+                     </label>
+                  </fieldset>
+
+                  <!-- Fieldset 4: Start Date -->
+                  <fieldset>
+                     <legend>Start Date</legend>
+                     <label for="start-date">Start Date:</label>
+                     <input type="date" id="start-date" name="start-date">
+                  </fieldset>
+
+                  <!-- Fieldset 5: How did you hear about us? -->
+                  <fieldset>
+                     <legend>How did you hear about us?</legend>
+                     <label for="referral">Referral:</label>
+                     <select id="referral" name="referral">
+                        <option value="">--</option>
+                        <option value="web">Web Search</option>
+                        <option value="friend">Friend/Word of Mouth</option>
+                        <option value="truck">Saw a Delivery Truck</option>
+                        <option value="other">Other</option>
+                     </select>
+                  </fieldset>
+
+                  <!-- Fieldset 6: Food Allergies -->
+                  <fieldset>
+                     <legend>Food Allergies</legend>
+                     <label for="allergies">Allergies:</label>
+                     <textarea id="allergies" name="allergies" rows="3"></textarea>
+                  </fieldset>
+
+                  <!-- Fieldset 7: Submit -->
+                  <fieldset>
+                     <legend>Sign Up</legend>
+                     <button type="submit">Sign Up</button>
+                  </fieldset>
+               </form>
+            </article>
+            <aside>
+               <h2>What&rsquo;s In Season</h2>
+               <p>Baby Carrots</p>
+               <p>Cardoons</p>
+               <p>Chard</p>
+               <p>Fiddleheads</p>
+               <p>Mint</p>
+               <p>Morels</p>
+               <p>New Potatoes</p>
+               <p>Ramps</p>
+            </aside>
+         </div>
+      </div>
+      <footer>
+         <p>Eating Well in Season &bull; Glover, VT &bull; (802) 555-3947</p>
+      </footer>
+   </body>
+</html>
